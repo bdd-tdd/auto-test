@@ -6,7 +6,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
-		plugin = {"pretty", "html:target/cucumber-html-report"},
-		features = "src/test/resources/features/record_todos/add_new_todos.feature"
+//		plugin = {"pretty", "html:target/cucumber-html-report"},
+		features = "src/test/resources/features/record_todos",
+		tags = {"@ShouldPass"}
+//		tags = {"@ShouldPass, @ShouldFail"}
 )
-public class RecordTodos {}
+public class RecordTodos {
+}
