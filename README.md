@@ -1,2 +1,2 @@
 # auto-test
-This is a template repository for automated test scripts.
+This repository has an automated demo test project which can be utilized as a template.
