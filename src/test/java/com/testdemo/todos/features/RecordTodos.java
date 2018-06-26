@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
 //		plugin = {"pretty", "html:target/cucumber-html-report"},
 		features = "src/test/resources/features/record_todos",
 		tags = {"@ShouldPass"}
-//		tags = {"@ShouldPass, @ShouldFail"}
 )
 public class RecordTodos {
 }
