@@ -9,9 +9,7 @@ import org.openqa.selenium.WebElement;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.core.annotations.findby.By;
-import net.thucydides.core.annotations.DefaultUrl;
 
-@DefaultUrl("http://todomvc.com/examples/angularjs")
 public class TodoPage extends PageObject {
 	public void addActionCalled(String actionName) {
 		WebElement todoField = getDriver().findElement(By.cssSelector("#new-todo"));
