@@ -1,7 +1,5 @@
 package com.testdemo.todos.steps;
 
-import com.testdemo.todos.pages.TodoPage;
-
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
 import static org.assertj.core.api.Assertions.assertThat;
@@ -10,6 +8,8 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.Properties;
+
+import com.testdemo.todos.pages.TodoPage;
 
 @SuppressWarnings("serial")
 public class User extends ScenarioSteps {

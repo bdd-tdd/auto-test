@@ -12,7 +12,7 @@ import net.serenitybdd.core.annotations.findby.By;
 
 public class TodoPage extends PageObject {
 	public void addActionCalled(String actionName) {
-		WebElement todoField = getDriver().findElement(By.cssSelector("#new-todo"));
+		WebElement todoField = getDriver().findElement(By.cssSelector(".new-todo"));
 		todoField.sendKeys(actionName);
 		todoField.sendKeys(Keys.ENTER);
 	}
