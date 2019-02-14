@@ -1,4 +1,4 @@
-package com.testdemo.todos.steps;
+package gov.dhs.cisa.indicatormanagement.steps;
 
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
@@ -9,7 +9,7 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.Properties;
 
-import com.testdemo.todos.pages.TodoPage;
+import gov.dhs.cisa.indicatormanagement.pages.TodoPage;
 
 @SuppressWarnings("serial")
 public class User extends ScenarioSteps {
