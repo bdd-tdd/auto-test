@@ -1,4 +1,4 @@
-package gov.dhs.cisa.indicatormanagement.features;
+package gov.dhs.cisa.indicatormanagement;
 
 import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
@@ -10,5 +10,5 @@ import org.junit.runner.RunWith;
 		features = "src/test/resources/features/record_todos",
 		tags = {"@ShouldPass"}
 )
-public class RecordTodos {
+public class RunCukesTest {
 }

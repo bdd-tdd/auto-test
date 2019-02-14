@@ -1,7 +1,6 @@
-package gov.dhs.cisa.indicatormanagement.features.steps;
+package gov.dhs.cisa.indicatormanagement.steps;
 
 import cucumber.api.java.en.Given;
-import gov.dhs.cisa.indicatormanagement.steps.User;
 import net.thucydides.core.annotations.Steps;
 
 public class RecordTodoSteps {
