@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
 //		plugin = {"pretty", "html:target/cucumber-html-report"},
-		features = "src/test/resources/features/record_todos",
-		tags = {"@ShouldPass"}
+		features = "src/test/resources/features/authentication",
+		tags = {"@Authentication"}
 )
 public class RunCukesTest {
 }
