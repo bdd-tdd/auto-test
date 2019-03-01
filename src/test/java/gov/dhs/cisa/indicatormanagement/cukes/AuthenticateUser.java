@@ -20,12 +20,14 @@ public class AuthenticateUser {
 	@Given("^the user logins the website$")
 	public void the_user_logins_the_website() throws Exception {
 		userSteps.visit_the_website(getWebSite());
-		userSteps.enter_user_name(getUsername());
-		userSteps.enter_password(getPassword());
-		userSteps.click_login_button();
+		userSteps.login_with_credential(getUsername(), getPassword());
 	}
 
-//
+	@Given("^the user should be presented with a landing page$")
+	public void the_user_should_be_presented_with_a_landing_page() throws Exception {
+		userSteps.verify_login_success();
+	}
+
 //	@Then("^I should be denied access\\.$")
 //	public void i_should_be_denied_access() throws Exception {
 //		userSteps.i_verify_access_denial_with(CommonUtil.get("login.error.msg"));
